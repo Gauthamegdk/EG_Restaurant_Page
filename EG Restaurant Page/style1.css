@@ -1,0 +1,178 @@
+ /* Clients page  */
+
+.clnt_head{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    background-color: #5c5470;
+    color: aliceblue;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.clntimg {
+    width: 150px;
+    height :150px;
+    margin:23px;
+}
+.clntsub1, .clntsub2{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.imgg{
+    transition: 1s;
+}
+
+.imgg :hover{
+    transform: scale(1.1);
+    z-index: 1;
+}
+
+/* Team member */
+
+.clnt_team{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    background-color: #5c5470;;
+    color: aliceblue;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 3px;
+}
+.cd{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cardcf1{
+    border: 1px solid black;
+    background-color: #dbd8e3;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.imgcf{
+    width: 220px;
+    height: 180px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+.cdcnt{
+    text-align: center;
+}
+
+.cd1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 50px;
+}
+
+.cardcf1:hover{
+    box-shadow: 0 12px 32px 0 rgba(73, 72, 72, 0.2);
+}
+
+
+/* Contact Form */
+
+.clnt_form{
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-size: 30px !important;
+    display: flex;
+    justify-content: center;
+    background-color: #5c5470;;
+    color: ghostwhite;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+.line{
+    margin-top: 50px;
+    border: 0.1px solid black;
+}
+
+
+.footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #2a2438;
+    color: white;
+  }
+
+
+
+
+
+
+
+
+/* contact form */
+
+.container{
+    border-radius: 5px;
+}
+
+
+.title{
+    margin-left: 4%;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: 32px;
+}
+.form{
+    margin-left: 18%;
+}
+
+.inputbox{
+    margin-bottom: 4px;
+}
+
+.letters{
+    font-weight: 600;
+}
+
+.inputsize1{
+    width: 450px;
+    height: 50px;
+}
+
+.inputsize , .inputsize1{
+    width: 450px;
+    border-radius: 4px;
+    border: transparent;
+}
+.button{
+ margin-left: 14%;
+}
+
+.btn12{
+    width: 200px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn12:hover{
+    background-color: aquamarine;
+    border-radius: 5px;
+}
+
